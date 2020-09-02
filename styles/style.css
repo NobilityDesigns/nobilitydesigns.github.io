@@ -38,6 +38,7 @@ h1 {
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+	text-align: center;
 }
 
 a {
@@ -54,6 +55,12 @@ a:hover {
 
 i:last-of-type {
 	margin-right: 0;
+}
+
+@media (min-width: 576px) {
+	h1 {
+		font-size: 4rem;
+	}
 }
 
 @keyframes gradient {
