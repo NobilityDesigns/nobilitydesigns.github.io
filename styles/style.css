@@ -6,10 +6,8 @@ html, body {
 }
 
 body {
-	background:
-        linear-gradient(to left top, rgba(127, 83, 172, 1) 0%,rgba(100, 125, 238, 1) 100%),
-		linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1));
-	font-family: 'Bebas Neue';
+	background: #212121;
+	font-family: 'Bebas Neue', sans-serif;
 	color: #fff;
 	font-size: 16px;
 	background-size: 400% 400%;
