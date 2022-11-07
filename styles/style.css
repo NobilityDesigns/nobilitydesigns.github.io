@@ -9,7 +9,7 @@ body {
 	background:
         linear-gradient(to left top, rgba(127, 83, 172, 1) 0%,rgba(100, 125, 238, 1) 100%),
 		linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1));
-	font-family: 'Bebas', sans-serif;
+	font-family: 'Bebas Neue';
 	color: #fff;
 	font-size: 16px;
 	background-size: 400% 400%;
@@ -29,6 +29,7 @@ img {
 h1 {
 	margin: 0;
 	font-size: 4.5rem;
+	letter-spacing: 5px;
 }
 
 .centered {
@@ -41,20 +42,21 @@ h1 {
 	text-align: center;
 }
 
+.links {
+	display: flex;
+	gap: 12px;
+}
+
 a {
 	font-size: 1.75rem;
-	margin-right: 12px;
-	color: #fff;
-	transition: color .3s ease-in-out;
+	color: rgba(255, 255, 255, 0.6);
+	transition: color .3s ease-in-out, transform .3s ease-in-out;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #66428A;
-}
-
-i:last-of-type {
-	margin-right: 0;
+	transform: scale(1.15) translateY(-5px);
+	color: #fff;
 }
 
 @media (min-width: 576px) {
